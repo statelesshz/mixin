@@ -1,5 +1,5 @@
 [project]
-name = "lazymodule"
+name = "mixin"
 version = "0.0.1"
 description = "experimental code for pack-up module and register module"
 readme = "README.md"
@@ -29,11 +29,11 @@ style = ["black", "ruff", "isort"]
 test = ["pytest", "pytest-cov"]
 pt = ["torch"]
 tf = ["tensorflow-cpu>=2.6"]
-all = ["lazymodule[test]", "lazymodule[test]"]
+all = ["mixin[test]", "mixin[pt]"]
 
 [project.urls]
-"Homepage" = "https://github.com/statelesshz/lazymodule"
-"Bug Tracker" = "https://github.com/statelesshz/lazymodule/issues"
+"Homepage" = "https://github.com/statelesshz/mixin"
+"Bug Tracker" = "https://github.com/statelesshz/lazymodule/mixin"
 
 [build-system]
 requires = ["hatchling"]
